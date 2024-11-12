@@ -1,8 +1,8 @@
-#Project name: Alec Benjamin's website
+# Project name: Alec Benjamin's website
 This website was desgined for fans of Alec Benjamin, a American singer-songwriter. The website allows fans to access and buy tour tickets, buy his merch, learn about how he started and access his discography. This allows fans to know more about him and support him.
 
 
-##Design Process
+## Design Process
 This website will be the one place fans will frequent to access his music and merch as it will include access to his tour dates, merch and discography.   
 
 As a fan, I want to watch his interviews and learn about the meaning behind his songs to understand more about him as an artist. 
