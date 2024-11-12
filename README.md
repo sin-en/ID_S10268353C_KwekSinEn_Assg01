@@ -9,9 +9,7 @@ As a fan, I want to watch his interviews and learn about the meaning behind his 
 
 Figma wireframe: https://www.figma.com/design/8uywQokoQ1Lng8B9RqHCNv/ASG-1?node-id=0-1&t=GCdWBL3tJgLOjj1m-1
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
+## Features
 Existing Features
 Tour page - allows users to see dates, location and city of available tour dates, as well as buy tickets
 Merch page - allows users to browse and buy merchandise
