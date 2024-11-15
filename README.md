@@ -31,16 +31,15 @@ Go to the "Contact Us" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes. -->
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here. -->
+
 
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
+
 Media
-The photos used in this site were obtained from ...
+
 Acknowledgements
-I received inspiration for this project from X
+
