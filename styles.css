@@ -1,0 +1,254 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 0.5em;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0077cc;
+  }
+  
+  a:hover {
+    color: #005fa3;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('images/hero-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+  }
+  
+  .main-nav {
+    margin-top: 20px;
+  }
+  
+  .main-nav a {
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  
+  .main-nav a:hover {
+    color: #ffd700;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  section h2 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  section p {
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+  
+  /* About Section */
+  .about img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  
+  /* Music Section */
+  .music-player {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .music-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .music-links a {
+    background: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .music-links a:hover {
+    background: #005fa3;
+  }
+  
+  /* Tour & Booking Section */
+  .tour-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .tour-item {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .tour-item button {
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tour-item button:hover {
+    background: #005fa3;
+  }
+  
+  /* Booking Form */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #0077cc;
+    color: white;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #005fa3;
+  }
+  
+  /* Merchandise Section */
+  .merch-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .merch-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    max-width: 200px;
+  }
+  
+  .merch-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .merch-item button {
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .merch-item button:hover {
+    background: #005fa3;
+  }
+  
+  /* Contact Section */
+  .contact .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .contact .social-links a {
+    background: #0077cc;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .contact .social-links a:hover {
+    background: #005fa3;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero p {
+      font-size: 1.2rem;
+    }
+  
+    .main-nav a {
+      font-size: 1rem;
+    }
+  
+    .tour-item {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
