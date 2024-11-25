@@ -1,21 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name = "viewport" content='width=device-width, initial-scale=1.0'>
-    <!-- Normalize.css -->
-    <link rel="stylesheet" href="normalize.css">
-    <!--Custom Stylesheet -->
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alec Benjamin - Official Website</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header">
-            <div class="logo-text1">
-                <h1 class="-is-visually-hidden">Alec Benjamin</h1>
-                   <a href="/?frontpage=true"><img src="alecbenjamin logo.png"></a>
-                </div>
-<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Alec Benjamin</h1>
+      <p>Official Website</p>
+    </div>
+    <nav class="main-nav">
+      <a href="#tour">Tour</a>
+      <a href="#music">Music</a>
+      <a href="#merchandise">Merch</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
+  <!-- Tour Section -->
+  <section id="tour">
+    <h2>Upcoming Tour Dates</h2>
+    <div class="tour-list">
+      <div class="tour-item">
+        <span>Los Angeles, CA - Nov 30, 2024</span>
+        <button>Buy Tickets</button>
+      </div>
+      <div class="tour-item">
+        <span>New York, NY - Dec 5, 2024</span>
+        <button>Buy Tickets</button>
+      </div>
+      <div class="tour-item">
+        <span>Chicago, IL - Dec 10, 2024</span>
+        <button>Buy Tickets</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Music Section -->
+  <section id="music">
+    <h2>Listen to My Music</h2>
+    <iframe src="https://open.spotify.com/embed/artist/2HOMW1liAxI3URnEq95SMS" 
+      width="100%" 
+      height="380" 
+      frameborder="0" 
+      allowtransparency="true" 
+      allow="encrypted-media">
+    </iframe>
+  </section>
+
+  <!-- Merchandise Section -->
+  <section id="merchandise">
+    <h2>Official Merchandise</h2>
+    <div class="merch-list">
+      <div class="merch-item">
+        <img src="images/tshirt.jpg" alt="T-Shirt">
+        <p>Storyteller T-Shirt</p>
+        <p>$25.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact & Booking</h2>
+    <form id="booking-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your Name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Alec Benjamin. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
