@@ -63,6 +63,9 @@ a:hover {
   text-transform: uppercase;
 }
 
+.title {
+  align-items: center;
+}
 /* Section Layouts */
 section {
   padding: 80px 20px;
