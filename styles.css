@@ -24,9 +24,9 @@ a:hover {
   color: #ffd700;
 }
 
-/* Hero Section */
-.hero {
-  background: url('images/hero.jpg') no-repeat center center/cover;
+/* Home Section */
+.home {
+  background: url('alecbenjamincover.jpg') no-repeat center center/cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,15 +35,20 @@ a:hover {
   text-align: center;
 }
 
-.hero h1 {
+.home h1 {
   font-size: 4rem;
   margin: 0;
 }
 
-.hero p {
-  font-size: 1.5rem;
-  margin: 10px 0;
+.about-me {
+  width: 70%;
+  margin: 0 auto; 
+  line-height: 1.6; 
+  color: #333; 
+  padding: 20px 10px;
+  background-color: #cad7df;
 }
+
 
 .main-nav {
   position: fixed;
@@ -52,7 +57,7 @@ a:hover {
   right: 0;
   display: flex;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.8);
+  background: #1a1a1a;
   padding: 10px 0;
   z-index: 1000;
 }
@@ -73,28 +78,43 @@ section {
   min-height: 100vh;
 }
 
-#tour, #music, #merchandise, #contact {
-  margin-bottom: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
 
 /* Tour List */
-.tour-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .tour-item {
   display: flex;
-  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+  justify-content: space-between; /* Spread content horizontally */
   width: 80%;
   max-width: 600px;
-  background: #f9f9f9;
-  margin: 10px 0;
-  padding: 10px 20px;
+  background: #d89d9d;
+  margin: 10px auto;
+  padding: 15px 20px; 
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px #333;
+  text-align: left;
+}
+
+.tour-item h3 {
+  margin: 0;
+  flex: 1; 
+}
+
+.tour-item p {
+  margin: 0;
+  font-size: 1rem;
+  flex: 2; 
+  text-align: left;
+}
+
+.tour-item button {
+  margin-left: 20px; 
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
 }
 
 /* Footer */
@@ -105,66 +125,14 @@ section {
   padding: 10px 0;
 }
 
-/* Tour Filter */
-.tour-filter {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.tour-filter input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.tour-filter button {
-  padding: 10px 15px;
-  margin-left: 10px;
-  background: #0077cc;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.error-message {
-  color: red;
-  font-size: 0.8em;
-  margin-top: 5px;
-}
-
-/* Music Section */
-.music-library {
-  margin-top: 20px;
-}
-
-.track-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.track-item {
-  background: #f9f9f9;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  text-align: center;
-  width: 200px;
-}
-
-.track-item button {
-  margin-top: 10px;
-}
-
 /* Merchandise Section */
 .cart-summary {
-  margin-top: 30px;
+  margin: 30px auto; 
   padding: 15px;
-  background: #f9f9f9;
-  border: 1px solid #ddd;
+  background: #f8c4c4cf;
   border-radius: 5px;
+  max-width: 800px;
+  text-align: center; 
 }
 
 .cart-summary h3 {
@@ -192,4 +160,48 @@ section {
 
 #checkout-button:hover {
   background: #005fa3;
+}
+
+.contact-form {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 500px; 
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  margin: auto;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 80px;
+}
+
+.contact-form button:hover {
+  background-color: #005fa3;
+}
+
+#contact p {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
 }

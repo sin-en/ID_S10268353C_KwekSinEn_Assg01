@@ -12,11 +12,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Booking Form Validation
-  const bookingForm = document.getElementById("booking-form");
-  const nameInput = document.getElementById("name");
-  const emailInput = document.getElementById("email");
-  const nameError = document.getElementById("name-error");
-  const emailError = document.getElementById("email-error");
+  var bookingForm = document.getElementById("booking-form");
+  var nameInput = document.getElementById("name");
+  var emailInput = document.getElementById("email");
+  var nameError = document.getElementById("name-error");
+  var emailError = document.getElementById("email-error");
 
   nameInput.addEventListener("blur", () => {
     if (nameInput.value.trim().length < 3) {
@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Scroll Animations
-  const sections = document.querySelectorAll("section");
-  const observer = new IntersectionObserver(
+  var sections = document.querySelectorAll("section");
+  var observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -74,18 +74,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Music Section - Play Selected Track
-  const audioPlayer = document.querySelector(".music-player audio");
-  const trackButtons = document.querySelectorAll(".play-track");
-
-  trackButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      const trackSrc = button.parentElement.getAttribute("data-src");
-      audioPlayer.src = trackSrc;
-      audioPlayer.play();
-    });
-  });
-
   // Merchandise Section - Add to Cart
   const cart = [];
   const cartItems = document.getElementById("cart-items");
@@ -126,6 +114,17 @@ document.addEventListener("DOMContentLoaded", () => {
       alert("Thank you for your purchase!");
       cart.length = 0; // Clear the cart
       updateCart();
+    }
+  });
+});
+
+document.querySelectorAll(".tour-item button").forEach((button) => {
+  button.addEventListener("click", () => {
+    const url = button.parentElement.getAttribute("data-url");
+    if (url) {
+      window.open(url, "_blank");
+    } else {
+      alert("Ticket link is not available.");
     }
   });
 });
