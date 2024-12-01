@@ -112,9 +112,9 @@ section {
 /* Merchandise Section */
 .merch-list {
   display: flex;
-  flex-wrap: wrap; /* Ensures wrapping of items to the next row */
-  justify-content: center; /* Centers items on each row */
-  gap: 20px; /* Adds spacing between items */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
 }
 
 .merch-item {
@@ -129,8 +129,8 @@ section {
 
 .merch-item img {
   width: 100%;
-  height: auto; /* Ensures the image scales proportionally */
-  border-radius: 5px; /* Adds slight rounding to the image */
+  height: auto; 
+  border-radius: 5px;
 }
 
 .merch-item button {
