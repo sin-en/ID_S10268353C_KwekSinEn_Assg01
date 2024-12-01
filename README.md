@@ -13,33 +13,43 @@ Figma wireframe: https://www.figma.com/design/8uywQokoQ1Lng8B9RqHCNv/ASG-1?node-
 Existing Features
 Tour page - allows users to see dates, location and city of available tour dates, as well as buy tickets
 Merch page - allows users to browse and buy merchandise
-Discography page - allows users to view and listen to his songs and albums
-Homepage - allows users to see his latest album ad listen to it 
+Music page - allows users to view and listen to his latest album and hit songs
+Homepage - allows users to find out a little about him
 
-New feature
-About page - allows users to watch interviews and learn about how he started
-
-Technologies Used
+New Feature:
+Contact us - allows users to send a little message to him
+ 
+## Technologies Used
 https://www.alecbenjamin.com/ (offical website)
 The project uses Alec Benjamin website as a reference.
 
-Testing
-<!-- For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
+## Testing
 Contact form:
 Go to the "Contact Us" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes. -->
 
+Merchandise:
+Go to the "Merch" page
+Try to add items to cart
+Try to check out
 
+Music:
+Go to the "Music" page
+Try to play songs
 
+Tour:
+Go to the "Tour" page
+Try to click on 'Buy Ticket' and access ticket selling website
 
-Credits
-Content
+Footer:
+Scroll all the way down to footer
+Try to click on 'Twitter' to access his Twitter page
+Try to click on 'Instagram' to access his Instagram page
+Try to click on 'Facebook' to access his Facebook page
 
-Media
-
-Acknowledgements
+## Credits
+Background is from Pinterest: https://i.pinimg.com/originals/8a/78/70/8a787030861ddf6409af87637b960ae3.jpg
+All photos were taken from ALec Benjamin's website
 
