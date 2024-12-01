@@ -71,9 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
     section.style.transition = "all 0.6s ease-in-out";
     observer.observe(section);
   });
-});
 
-document.addEventListener("DOMContentLoaded", () => {
   // Merchandise Section - Add to Cart
   const cart = [];
   const cartItems = document.getElementById("cart-items");
@@ -126,5 +124,4 @@ document.querySelectorAll(".tour-item button").forEach((button) => {
     } else {
       alert("Ticket link is not available.");
     }
-  });
 });
