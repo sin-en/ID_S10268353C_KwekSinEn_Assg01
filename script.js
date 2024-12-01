@@ -1,18 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Dynamic Tour Filtering
-  var searchInput = document.getElementById("search");
-  var tourItems = document.querySelectorAll(".tour-item");
-
-  if (searchInput) {
-    searchInput.addEventListener("input", function () {
-      var query = searchInput.value.toLowerCase();
-      tourItems.forEach(function (item) {
-        var location = item.dataset.location.toLowerCase();
-        item.style.display = location.includes(query) ? "flex" : "none";
-      });
-    });
-  }
-
   // Booking Form Validation
   var bookingForm = document.getElementById("booking-form");
   var nameInput = document.getElementById("name");
@@ -123,7 +109,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
-
 
 document.querySelectorAll(".tour-item button").forEach((button) => {
   button.addEventListener("click", () => {
